@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Arguing</string>
+    <string name="prefs_file">com.example.arguing.PREFERENCE_FILE_KEY</string>
+    <string name="CLAVE_API_MAPS">AIzaSyDrJCc1zCfklAGAdjt19K8YcfHLrexyiWU</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632474608464",
+    "project_id": "arguing-4790b",
+    "storage_bucket": "arguing-4790b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632474608464:android:f27fd2d8ec806dd661c255",
+        "android_client_info": {
+          "package_name": "com.example.arguing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632474608464-79ve0pj5j85edeen6o0efjeeagu88tl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb6DP4QoaBPRkaXlzgpvIIJ87-Y2Ks22Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632474608464-79ve0pj5j85edeen6o0efjeeagu88tl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

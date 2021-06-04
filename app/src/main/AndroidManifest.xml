@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arguing">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_4k_24"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_baseline_4k_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Arguing">
+        <activity android:name=".activities.AgregarUsuariosActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.CrearEventoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Load">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.AuthActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
